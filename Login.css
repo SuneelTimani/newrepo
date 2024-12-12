@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+html{
+    font-family: "Lato", sans-serif;
+}
+body{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    height: 100dvh;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    height: 60vh;
+    scroll-behavior: smooth;
+    box-shadow: 0 1px 2px 0 rgb(197, 197, 197);
+    border-radius: 10px;
+}
+.container{
+    height: 60vh;
+    width: 350px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #005eff;
+}
+#signup{
+    border-radius: 10px 10px 0 0;
+}
+#signupbtn{
+    text-align: center;
+    padding: 20px 0;
+    border-radius: inherit;
+    width: inherit;
+    background-color: inherit;
+    position: absolute;
+}
+#signupbtn a{
+    text-decoration: none;
+    color: #ffffff;
+    /* color: rgb(192, 192, 192); */
+}
+.signupform{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    padding-top: 65px;
+}
+input{
+    height: 40px;
+    width: 95%;
+    padding-left: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 5px;
+}
+#termsCheckbox{
+    height: 15px;
+    width: 15px;
+    margin: 8px 0 20px 0;
+}
+.signupform label{
+    width: max-content;
+    padding: 5px;
+    color: white;
+}
+button{
+    height: 40px;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    margin-bottom: 40px;
+}
+#loginbtn{
+    width: 100%;
+    padding: 30px 0;
+    text-align: center;
+    background-color: white;
+    border-radius: 20% 20% 0 0;
+}
+#loginbtn a{
+    text-decoration: none;
+    color: rgb(98, 96, 96);
+}
+.loginform{
+    display: flex;
+    flex-wrap: wrap;
+    width: 75%;
+    text-align: center;
+}
+.loginput{
+    border: solid 2px gray;
+}
+#logbtn{
+    background-color: #005eff;
+    color: white;
+    margin-bottom: 100px;
+}
+#forgotPass{
+    text-decoration: none;
+    color: gray;
+}
+#loginbox{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border-radius: 20% 20% 10px 10px;
+}
+#login{
+    border-radius: 0 0 10px 10px;
+}
